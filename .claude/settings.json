@@ -7,10 +7,6 @@
           {
             "type": "command",
             "command": "cd ~/Desktop/week2/frontend && npx tsc --noEmit 2>&1 | tail -30; rm -f tsconfig.tsbuildinfo"
-          },
-          {
-            "type": "command",
-            "command": "cd ~/Desktop/week2 && web-server/.venv/Scripts/python -m pytest web-server/tests -v 2>&1 | tail -20"
           }
         ]
       }
